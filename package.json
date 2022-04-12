@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "mysql": "^2.18.1"
-  }
+    "git-branches-cleaner": "^3.0.0",
+    "mysql": "^2.18.1",
+    "yargs": "^17.4.1",
+    "zs": "^0.0.0",
+    "zx": "^6.0.7"
+  },
+  "name": "hellobello",
+  "version": "1.0.0",
+  "main": "database.js",
+  "scripts": {
+    "start": "node database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naudiyal30/db-connect-node.git"
+  },
+  "author": "jatin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naudiyal30/db-connect-node/issues"
+  },
+  "homepage": "https://github.com/naudiyal30/db-connect-node#readme",
+  "description": ""
 }
